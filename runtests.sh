@@ -24,7 +24,7 @@ fi
 rm -rf ./env/
 
 # Create a fresh one
-virtualenv -p python3.4 env
+virtualenv -p python2.7 env
 
 # activate the virtualenv
 source env/bin/activate
